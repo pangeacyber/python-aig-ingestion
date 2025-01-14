@@ -25,7 +25,7 @@ requires-dist = [
     { name = "openai", specifier = ">=1.59.6" },
     { name = "pangea-sdk", specifier = "==5.2.0b2" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
-    { name = "scipy", specifier = ">=1.15.0" },
+    { name = "scipy", specifier = ">=1.15.1" },
 ]
 
 [package.metadata.requires-dev]
