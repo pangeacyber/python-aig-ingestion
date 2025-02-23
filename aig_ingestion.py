@@ -89,7 +89,7 @@ def main(
     for chunk in chunks:
         guarded = ai_guard.guard_text(chunk)
         assert guarded.result
-        guarded_chunks.append(guarded.result.redacted_prompt or chunk)
+        guarded_chunks.append(guarded.result.prompt_text or chunk)
 
     # Generate embeddings for each chunk.
     click.echo("Generating embeddings...")
