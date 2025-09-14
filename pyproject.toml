@@ -10,7 +10,7 @@ dependencies = [
     "openai>=1.107.1",
     "pangea-sdk==6.6.0",
     "python-dotenv>=1.1.1",
-    "scipy>=1.16.1",
+    "scipy>=1.16.2",
 ]
 
 [tool.uv]
